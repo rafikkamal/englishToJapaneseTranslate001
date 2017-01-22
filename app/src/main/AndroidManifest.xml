@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rafik.translatetojapaneseappprototype001">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserRegisterValidation"
+            android:label="@string/title_activity_user_register_validation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainIndex"
+            android:label="@string/title_activity_main_index"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnglishToJapaneseMenu"
+            android:label="@string/title_activity_english_to_japanese_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnglishToJapaneseMenuContent"
+            android:label="@string/title_activity_english_to_japanese_menu_content"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminMainIndex"
+            android:label="@string/title_activity_admin_main_index"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EnglishToJapaneseMenuContentDisplay"
+            android:label="@string/title_activity_english_to_japanese_menu_content_display"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

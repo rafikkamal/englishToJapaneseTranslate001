@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20201c"
+    android:clickable="false">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:id="@+id/customRowImage"
+        android:src="@drawable/japan_flag"
+        android:layout_margin="5dp"
+        android:background="#20201c"
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/customRowText"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="19sp"
+        android:textStyle="italic"
+        android:gravity="fill_vertical"
+        android:background="#20201c"
+        android:textColor="#ffffff"
+        android:paddingTop="10dp" />
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rafik.translatetojapaneseappprototype001.MainIndex"
+    tools:showIn="@layout/activity_main_index"
+    android:background="#20201c">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Japanese Translation App 001"
+        android:id="@+id/textView7"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/japan_flag"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Bangla To Japanese"
+        android:id="@+id/button2"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="41dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#f10722"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:onClick="displayBanglaToJapanese" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="English To Japanese"
+        android:id="@+id/button3"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#f10722"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:onClick="displayEnglishToJapanese" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="My Profile"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#f10722"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:onClick="displayMyProfile" />
+
+</RelativeLayout>

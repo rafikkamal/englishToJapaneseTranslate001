@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rafik.translatetojapaneseappprototype001.EnglishToJapaneseMenuContentDisplay"
+    tools:showIn="@layout/activity_english_to_japanese_menu_content_display"
+    android:background="#20201c">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="this is in English"
+        android:id="@+id/englishSentenceTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="私の名前はrafikです"
+        android:id="@+id/japaneseSentenceTextView"
+        android:layout_below="@+id/englishSentenceTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Watashi no namae wa rafik desu"
+        android:id="@+id/englishExpressionTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Description"
+        android:id="@+id/descriptionLabelTextView"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="this is a description.this is a description.this is a description.this is a description.this is a description.this is a description.this is a description.this is a description.this is a description.this is a description.this is a description."
+        android:id="@+id/descriptionTextView"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Specification"
+        android:id="@+id/specificationLabelTextView"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="this is a description.this is a description.this is a description.this is a description.this is a description.this is a description.this is a description.this is a description.this is a description.this is a description.this is a description.this is a description.this is a description."
+        android:id="@+id/specificationTextView"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp" />
+
+
+</LinearLayout>

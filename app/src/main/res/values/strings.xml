@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TranslateToJapaneseAppPrototype001</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_register_validation">UserRegisterValidation</string>
+    <string name="title_activity_main_index">MainIndex</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_english_to_japanese_menu">EnglishToJapaneseMenu</string>
+    <string name="title_activity_english_to_japanese_menu_content">EnglishToJapaneseMenuContent
+    </string>
+    <string name="title_activity_admin_main_index">AdminMainIndex</string>
+    <string name="title_activity_english_to_japanese_menu_content_display">
+        EnglishToJapaneseMenuContentDisplay
+    </string>
+</resources>
